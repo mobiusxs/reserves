@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+    <h1>Results</h1>
+    <p>There are {{ fits_available }} {{ name }} fittings on the market</p>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Required</th>
+            <th>Available</th>
+        </tr>
+    {% for key, value in items.items() %}
+        <tr>
+            <td>{{ key }}</td>
+            <td>{{ value['required'] }}</td>
+            <td>{{ value['available'] }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock %}

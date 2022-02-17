@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock %}
+
+{% block content %}
+    <form action="/check" method="post">
+        <textarea name="fit" id="fit" cols="30" rows="10"></textarea>
+        <input type="submit">
+    </form>
+{% endblock %}
