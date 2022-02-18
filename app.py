@@ -28,9 +28,8 @@ def get_fit_availability(fit):
 
     fits_available = []
     for item_name, required in fitting['items'].items():
-        type_id = types.get(item_name)
-        available = availability.get(type_id, 0)
-        data['items'][item_name] = {'required': required, 'available': available}
-        fits_available.append(available // required)
+        type_id, name, volume, price = get_by_name(item_name)
+        data['items'][item_name] = {'required': required, 'available': volume}
+        fits_available.append(volume // required)
     data['fits_available'] = min(fits_available)
     return data
