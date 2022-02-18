@@ -1,9 +1,8 @@
 from flask import Flask, render_template, request
 from dotenv import load_dotenv
 
-from parsers import parse_eft
-from market import get_availability
-from eve_types import get_name_dict
+from utils.parsers import parse_eft
+from data.select import get_by_name
 
 load_dotenv()
 app = Flask(__name__)
@@ -26,8 +25,7 @@ def check():
 def get_fit_availability(fit):
     fitting = parse_eft(fit)
     data = {'name': fitting['name'], 'items': {}}
-    availability = get_availability(1035466617946)
-    types = get_name_dict()
+
     fits_available = []
     for item_name, required in fitting['items'].items():
         type_id = types.get(item_name)
