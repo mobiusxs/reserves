@@ -1,7 +1,7 @@
 from flask import Flask
 
 from index.views import bp as bp_index
-from fits.views import bp as bp_fit
+from doctrine.views import bp as bp_fit
 from items.views import bp as bp_items
 
 

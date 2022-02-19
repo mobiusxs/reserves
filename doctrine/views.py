@@ -1,7 +1,6 @@
 from flask import Blueprint, redirect, render_template, request, url_for
 
 from utils.parsers import parse_eft
-from data.select import get_by_name
 
 from core import config
 from . import database
@@ -12,7 +11,7 @@ bp = Blueprint('fits', __name__, template_folder=config.TEMPLATES_PATH, url_pref
 @bp.route('/')
 def index():
     fits = database.list_fits()
-    return render_template('fits/index.html', fits=fits)
+    return render_template('doctrine/index.html', fits=fits)
 
 
 @bp.route('/add', methods=['GET', 'POST'])
@@ -23,10 +22,10 @@ def add():
         fit = parse_eft(fit_raw)
         fit_id = database.create_fit(fit, quantity)
         return redirect(url_for('fits.view', fit_id=fit_id))
-    return render_template('fits/add.html')
+    return render_template('doctrine/add.html')
 
 
-@bp.route('/view/<int:fit_id>')
-def view(fit_id):
-    fit = database.read_fit(fit_id)
-    return render_template('fits/view.html', fit=fit)
+@bp.route('/fit/<int:id>')
+def fit(id):
+    fit_dict = database.read_fit(id)
+    return render_template('doctrine/view.html', fit=fit_dict)
