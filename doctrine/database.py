@@ -62,28 +62,33 @@ def get_doctrine(doctrine_id: int) -> dict:
     doctrine_name, doctrine_required = c.fetchone()
 
     # Get doctrine availability
-    c.execute(
-        "SELECT MIN(item.available / doctrine_item.required) FROM doctrine_item, item WHERE doctrine_item.item_id=item.id AND doctrine_id=?;",
-        (doctrine_id,))
+    c.execute("SELECT MIN(item.available / doctrine_item.required) FROM doctrine_item, item WHERE doctrine_item.item_id=item.id AND doctrine_id=?;", (doctrine_id,))
     doctrine_available = c.fetchone()[0]
 
+    doctrine_percent = min(int(doctrine_available / doctrine_required * 100), 100)
+
     # Get all items for this doctrine
-    c.execute(
-        "SELECT item.name, doctrine_item.required, item.available, item.price FROM doctrine, item, doctrine_item WHERE doctrine.id=? AND doctrine_item.doctrine_id=? AND doctrine_item.item_id=item.id;",
-        (doctrine_id, doctrine_id))
-    items = {}
+    c.execute("SELECT item.name, doctrine_item.required, item.available, item.price FROM doctrine, item, doctrine_item WHERE doctrine.id=? AND doctrine_item.doctrine_id=? AND doctrine_item.item_id=item.id;", (doctrine_id, doctrine_id))
+    doctrine_price = 0
+    items = []
     for item in c.fetchall():
         item_name, item_required, item_available, item_price = item
-        items[item_name] = {
+        item = {
+            'name': item_name,
             'required': item_required,
             'available': item_available,
-            'price': item_price
+            'unit_price': item_price,
+            'total_price': item_price * item_required
         }
+        doctrine_price += item_required + item_price
+        items.append(item)
 
     doctrine = {
         'name': doctrine_name,
         'required': doctrine_required,
         'available': doctrine_available,
+        'percent': doctrine_percent,
+        'price': doctrine_price,
         'items': items
     }
 

@@ -4,21 +4,36 @@
 
 {% block content %}
     <h1>{{ doctrine['name'] }}</h1>
-    <p>{{ doctrine['required'] }} required</p>
-    <p>{{ doctrine['available'] }} available</p>
+    <table>
+        <tr>
+            <th>Required</th>
+            <th>Available</th>
+            <th>Percent</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>{{ doctrine['required'] }}</td>
+            <td>{{ doctrine['available'] }}</td>
+            <td>{{ doctrine['percent'] }}</td>
+            <td>{{ "{:,}".format(doctrine['price']) }}</td>
+        </tr>
+    </table>
+
     <table>
         <tr>
             <th>Item</th>
             <th>Required</th>
             <th>Available</th>
-            <th>Price</th>
+            <th>Unit Price</th>
+            <th>Total Price</th>
         </tr>
-    {% for name, values in doctrine['items'].items() %}
+    {% for item in doctrine['items'] %}
         <tr>
-            <td>{{ name }}</td>
-            <td align="right">{{ "{:,}".format(values['required']) }}</td>
-            <td align="right">{{ "{:,}".format(values['available']) }}</td>
-            <td align="right">{{ "{:,.2f}".format(values['price']) }}</td>
+            <td>{{ item['name'] }}</td>
+            <td align="right">{{ "{:,}".format(item['required']) }}</td>
+            <td align="right">{{ "{:,}".format(item['available']) }}</td>
+            <td align="right">{{ "{:,.2f}".format(item['unit_price']) }}</td>
+            <td align="right">{{ "{:,.2f}".format(item['total_price']) }}</td>
         </tr>
     {% endfor %}
     </table>
