@@ -5,7 +5,7 @@ from utils.parsers import parse_eft
 from core import config
 from . import database
 
-bp = Blueprint('fits', __name__, template_folder=config.TEMPLATES_PATH, url_prefix='/fits')
+bp = Blueprint('doctrine', __name__, template_folder=config.TEMPLATES_PATH)
 
 
 @bp.route('/')
