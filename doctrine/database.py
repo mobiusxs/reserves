@@ -32,9 +32,8 @@ def create_doctrine(eft_dict: dict, required: int) -> int:
     return doctrine_id
 
 
-def _get_doctrine(doctrine_id: int, c: sqlite3.Cursor) -> dict:
-    """Helper function to retrieve data for the fit of the given doctrine_id.
-    Should not be called directly.
+def get_doctrine(doctrine_id: int) -> dict:
+    """Retrieve data for the fit of the given doctrine_id.
 
     Example output:
 
@@ -51,9 +50,12 @@ def _get_doctrine(doctrine_id: int, c: sqlite3.Cursor) -> dict:
         }
 
     :param doctrine_id: int the id of the fit
-    :param c: sqlite3.Cursor cursor object
     :return: dict Ship fitting in dict format
     """
+
+    # Create connection
+    conn = sqlite3.connect(config.DATABASE_PATH)
+    c = conn.cursor()
 
     # Get the doctrine name and required quantity
     c.execute("SELECT name, required FROM doctrine WHERE id=?;", (doctrine_id,))
@@ -84,23 +86,6 @@ def _get_doctrine(doctrine_id: int, c: sqlite3.Cursor) -> dict:
         'available': doctrine_available,
         'items': items
     }
-    return doctrine
-
-
-def get_doctrine(doctrine_id: int) -> dict:
-    """Retrieve the doctrine for the given doctrine_id
-
-    See _get_doctrine() for more info
-
-    :param doctrine_id: the id of the doctrine to retrieve
-    :return: dict Ship fitting in dict format
-    """
-
-    # Create connection
-    conn = sqlite3.connect(config.DATABASE_PATH)
-    c = conn.cursor()
-
-    doctrine = _get_doctrine(doctrine_id, c)
 
     # Close connection
     c.close()
