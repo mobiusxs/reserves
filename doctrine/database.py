@@ -144,16 +144,17 @@ def list_doctrines() -> list[dict]:
 def get_doctrine_items():
     conn = sqlite3.connect(config.DATABASE_PATH)
     c = conn.cursor()
-    c.execute("SELECT item.name, doctrine.required * doctrine_item.required AS required, item.available FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id GROUP BY doctrine_item.item_id;")
+    c.execute("SELECT item.name, doctrine.required * doctrine_item.required AS required, item.available, item.price FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id GROUP BY doctrine_item.item_id;")
     items = []
     for item in c.fetchall():
-        name, required, available = item
+        name, required, available, price = item
         percent = min(int(available / required * 100), 100)
         d = {
             'name': name,
             'required': required,
             'available': available,
-            'percent': percent
+            'percent': percent,
+            'price': price
         }
         items.append(d)
 
