@@ -3,10 +3,10 @@
 {% block title %}Add Doctrine Fit{% endblock %}
 
 {% block content %}
-    <h1>Add Doctrine Fit</h1>
-    <form action="{{ url_for('fits.add') }}" method="post">
-        <textarea name="fit" id="fit" cols="30" rows="10"></textarea>
-        <input type="number" name="quantity" placeholder="quantity">
+    <h1>Add Doctrine</h1>
+    <form action="{{ url_for('doctrine.add') }}" method="post">
+        <textarea name="eft" id="eft" cols="30" rows="10"></textarea>
+        <input type="number" name="required" placeholder="required" required>
         <input type="submit">
     </form>
 {% endblock %}
