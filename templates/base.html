@@ -7,8 +7,11 @@
 <body>
     <header>
         <nav>
-            <a href="/">Reserves</a>
-            <a href="/check">Check</a>
+            <a href="{{ url_for('index.index') }}">Reserves</a>
+            <a href="{{ url_for('fits.index') }}">Fits</a>
+            <a href="{{ url_for('fits.add') }}">Add Fit</a>
+            <a href="{{ url_for('items.index') }}">Items</a>
+            <a href="{{ url_for('items.buy_all') }}">Buy All</a>
         </nav>
     </header>
     <main>{% block content %}{% endblock %}</main>
