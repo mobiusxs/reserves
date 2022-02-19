@@ -6,7 +6,7 @@ from core.config import DATABASE_PATH
 def list_items():
     conn = sqlite3.connect(DATABASE_PATH)
     c = conn.cursor()
-    c.execute("SELECT items.name, fits.quantity * fit_items.quantity AS required, items.volume FROM fits, fit_items, items WHERE fits.fit_id=fit_items.fit_id AND fit_items.type_id=items.type_id GROUP BY fit_items.type_id;")
+    c.execute("SELECT item.name, doctrine.required * doctrine_item.required AS required, item.available FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id GROUP BY doctrine_item.item_id;")
     items = []
     for item in c.fetchall():
         name, required, available = item
@@ -22,7 +22,7 @@ def list_items():
 def buy_all():
     conn = sqlite3.connect(DATABASE_PATH)
     c = conn.cursor()
-    c.execute("SELECT items.name, fits.quantity * fit_items.quantity - items.volume as short FROM fits, fit_items, items WHERE fits.fit_id=fit_items.fit_id AND fit_items.type_id=items.type_id AND short > 0 GROUP BY fit_items.type_id;")
+    c.execute("SELECT item.name, doctrine.required * doctrine_item.required - item.available as short FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id AND short > 0 GROUP BY doctrine_item.item_id;")
     items = [i for i in c.fetchall()]
     conn.commit()
     c.close()
