@@ -7,8 +7,7 @@ import requests
 
 from core import config
 
-conn = sqlite3.connect(config.DATABASE_PATH)
-c = conn.cursor()
+
 
 
 def download_csv() -> bytes:
@@ -27,9 +26,14 @@ def decompress_csv(csv_bytes):
 
 
 def write_types(types):
+    conn = sqlite3.connect(config.DATABASE_PATH)
+    c = conn.cursor()
+
     for id, name in types:
         c.execute("INSERT INTO item VALUES (?,?,0,0);", (id, name))
     conn.commit()
+    c.close()
+    conn.close()
 
 
 def main():
@@ -42,5 +46,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    c.close()
-    conn.close()
