@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
-{% block title %}View Fit{% endblock %}
+{% block title %}View Doctrine{% endblock %}
 
 {% block content %}
-    <h1>{{ fit['name'] }}</h1>
-    <p>{{ fit['required'] }} required</p>
-    <p>{{ fit['available'] }} available</p>
+    <h1>{{ doctrine['name'] }}</h1>
+    <p>{{ doctrine['required'] }} required</p>
+    <p>{{ doctrine['available'] }} available</p>
     <table>
         <tr>
             <th>Item</th>
@@ -13,7 +13,7 @@
             <th>Available</th>
             <th>Price</th>
         </tr>
-    {% for name, values in fit['items'].items() %}
+    {% for name, values in doctrine['items'].items() %}
         <tr>
             <td>{{ name }}</td>
             <td align="right">{{ "{:,}".format(values['required']) }}</td>
