@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Doctrines{% endblock %}
+
+{% block content %}
+    <h1>Doctrines</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Required</th>
+            <th>Available</th>
+            <th>Percent</th>
+        </tr>
+    {% for doctrine in doctrines %}
+        <tr>
+            <td><a href="{{ url_for('doctrine.doctrine', id=doctrine['id']) }}">{{ doctrine['name'] }}</a></td>
+            <td>{{ doctrine['required'] }}</td>
+            <td>{{ doctrine['available'] }}</td>
+            <td>{{ doctrine['percent'] }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock %}

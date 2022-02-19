@@ -91,7 +91,7 @@ def insert_into_db(orders: list[tuple]) -> None:
 
     for order in orders:
         type_id, price, volume = order
-        c.execute("""UPDATE items SET price=?, volume=? WHERE type_id=?""", (float(price), int(volume), int(type_id)))
+        c.execute("""UPDATE item SET price=?, available=? WHERE id=?""", (float(price), int(volume), int(type_id)))
     conn.commit()
     c.close()
     conn.close()
