@@ -10,7 +10,7 @@
             <th>Required</th>
             <th>Available</th>
             <th>Percent</th>
-            <th>Price</th>
+            <th>Unit Price</th>
         </tr>
     {% for item in items %}
         <tr>
@@ -18,7 +18,7 @@
             <td>{{ item['required'] }}</td>
             <td>{{ item['available'] }}</td>
             <td>{{ item['percent'] }}</td>
-            <td>{{ "{:,.2f}".format(item['price']) }}</td>
+            <td align="right">{{ "{:,.2f}".format(item['price']) }}</td>
         </tr>
     {% endfor %}
 
