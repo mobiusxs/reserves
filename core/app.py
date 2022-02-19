@@ -1,7 +1,6 @@
 from flask import Flask
 
 from doctrine.views import bp as bp_doctrine
-from items.views import bp as bp_items
 
 
 def create_app():
@@ -12,5 +11,4 @@ def create_app():
 
 def register_blueprints(app):
     app.register_blueprint(bp_doctrine)
-    app.register_blueprint(bp_items)
     return app
