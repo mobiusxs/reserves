@@ -27,8 +27,8 @@ def decompress_csv(csv_bytes):
 
 
 def write_types(types):
-    for type_id, name in types:
-        c.execute("INSERT INTO items VALUES (?,?,0,0);", (type_id, name))
+    for id, name in types:
+        c.execute("INSERT INTO item VALUES (?,?,0,0);", (id, name))
     conn.commit()
 
 

@@ -1,20 +1,20 @@
-CREATE TABLE IF NOT EXISTS items (
-    type_id INTEGER PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS item (
+    id INTEGER PRIMARY KEY,
     name TEXT,
-    volume INTEGER,
+    available INTEGER,
     price REAL
 );
 
-CREATE TABLE IF NOT EXISTS fits (
-    fit_id INTEGER PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS doctrine (
+    id INTEGER PRIMARY KEY,
     name TEXT,
-    quantity INTEGER
+    required INTEGER
 );
 
-CREATE TABLE IF NOT EXISTS fit_items (
-    fit_id INTEGER,
-    type_id INTEGER,
-    quantity INTEGER,
-    FOREIGN KEY(fit_id) REFERENCES fits(fit_id),
-    FOREIGN KEY(type_id) REFERENCES items(type_id)
+CREATE TABLE IF NOT EXISTS doctrine_item (
+    doctrine_id INTEGER,
+    item_id INTEGER,
+    required INTEGER,
+    FOREIGN KEY(doctrine_id) REFERENCES doctrine(id),
+    FOREIGN KEY(item_id) REFERENCES item(id)
 );
