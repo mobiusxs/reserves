@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Doctrine Items{% endblock %}
+
+{% block content %}
+    <h1>Doctrine Items</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Required</th>
+            <th>Available</th>
+            <th>Percent</th>
+        </tr>
+    {% for item in items %}
+        <tr>
+            <td>{{ item['name'] }}</td>
+            <td>{{ item['required'] }}</td>
+            <td>{{ item['available'] }}</td>
+            <td>{{ item['percent'] }}</td>
+        </tr>
+    {% endfor %}
+
+    </table>
+{% endblock %}
