@@ -29,3 +29,15 @@ def add():
 def doctrine(id):
     doctrine_dict = database.get_doctrine(id)
     return render_template('doctrine/doctrine.html', doctrine=doctrine_dict)
+
+
+@bp.route('/items')
+def items():
+    doctrine_items = database.get_doctrine_items()
+    return render_template('doctrine/items.html', items=doctrine_items)
+
+
+@bp.route('/missing')
+def missing():
+    missing_items = database.get_missing_items()
+    return render_template('doctrine/missing.html', items=missing_items)
