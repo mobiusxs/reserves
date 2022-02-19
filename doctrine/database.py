@@ -139,3 +139,50 @@ def list_doctrines() -> list[dict]:
     c.close()
     conn.close()
     return doctrines
+
+
+def get_doctrine_items():
+    conn = sqlite3.connect(config.DATABASE_PATH)
+    c = conn.cursor()
+    c.execute("SELECT item.name, doctrine.required * doctrine_item.required AS required, item.available FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id GROUP BY doctrine_item.item_id;")
+    items = []
+    for item in c.fetchall():
+        name, required, available = item
+        percent = min(int(available / required * 100), 100)
+        d = {
+            'name': name,
+            'required': required,
+            'available': available,
+            'percent': percent
+        }
+        items.append(d)
+
+    # sort by percent
+    items = sorted(items, key=lambda item: item['percent'])
+
+    conn.commit()
+    c.close()
+    conn.close()
+    return items
+
+
+def get_missing_items():
+    conn = sqlite3.connect(config.DATABASE_PATH)
+    c = conn.cursor()
+
+    # Get all items that are below required threshold
+    c.execute("SELECT item.name, doctrine.required * doctrine_item.required - item.available as short FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id AND short > 0 GROUP BY doctrine_item.item_id;")
+    items = []
+    for item in c.fetchall():
+        name, missing = item
+        d = {
+            'name': name,
+            'missing': missing
+        }
+        items.append(d)
+
+    # Close connection
+    conn.commit()
+    c.close()
+    conn.close()
+    return items
