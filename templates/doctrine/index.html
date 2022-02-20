@@ -4,12 +4,14 @@
 
 {% block content %}
     <h1>Doctrines</h1>
+    <p><a href="{{ url_for('doctrine.add') }}">Add Doctrine</a></p>
     <table>
         <tr>
             <th>Name</th>
             <th>Required</th>
             <th>Available</th>
             <th>Percent</th>
+            <th></th>
         </tr>
     {% for doctrine in doctrines %}
         <tr>
@@ -17,6 +19,7 @@
             <td>{{ doctrine['required'] }}</td>
             <td>{{ doctrine['available'] }}</td>
             <td>{{ doctrine['percent'] }}</td>
+            <td><a href="{{ url_for('doctrine.delete', id=doctrine['id']) }}">Delete</a></td>
         </tr>
     {% endfor %}
     </table>
