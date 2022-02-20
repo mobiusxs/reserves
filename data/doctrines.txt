@@ -1,0 +1,1822 @@
+150
+[Tempest Fleet Issue, WC TFI-DPS]
+Thermal Armor Hardener II
+Damage Control II
+1600mm Steel Plates II
+1600mm Steel Plates II
+Imperial Navy Multispectrum Energized Membrane
+Kinetic Armor Hardener II
+Explosive Armor Hardener II
+100MN Afterburner II
+Medium Capacitor Booster II
+Tracking Computer II
+Tracking Computer II
+Tracking Disruptor II
+1400mm Howitzer Artillery II
+1400mm Howitzer Artillery II
+1400mm Howitzer Artillery II
+1400mm Howitzer Artillery II
+1400mm Howitzer Artillery II
+1400mm Howitzer Artillery II
+Drone Link Augmentor II
+Large Trimark Armor Pump I
+Large Trimark Armor Pump I
+Large Trimark Armor Pump I
+Hobgoblin II x5
+Hammerhead II x5
+Hornet EC-300 x5
+Republic Fleet Carbonized Lead L x1000
+Republic Fleet EMP L x2280
+Optimal Range Script x5
+Tracking Speed Script x3
+Republic Fleet Depleted Uranium L x600
+Optimal Range Disruption Script x2
+Missile Range Disruption Script x2
+Republic Fleet Titanium Sabot L x600
+Targeting Range Script x2
+Tracking Speed Disruption Script x2
+Scan Resolution Script x2
+Republic Fleet Fusion L x2160
+Targeting Range Dampening Script x2
+Missile Precision Disruption Script x2
+Tremor L x600
+Scan Resolution Dampening Script x2
+Sensor Booster II x2
+Warp Scrambler II x1
+800mm Repeating Cannon II x6
+Guidance Disruptor II x2
+Warp Disruptor II x1
+500MN Quad LiF Restrained Microwarpdrive x1
+Radar ECM II x3
+Remote Sensor Dampener II x2
+Heavy Infectious Scoped Energy Neutralizer x2
+Tracking Computer II x1
+Tracking Disruptor II x1
+
+30
+[Guardian, WC TFI-Logi Guardian]
+Dark Blood Thermal Armor Hardener
+Damage Control II
+1600mm Steel Plates II
+Imperial Navy Multispectrum Energized Membrane
+800mm Rolled Tungsten Compact Plates
+Sensor Booster II
+10MN Afterburner II
+Large Remote Armor Repairer II
+Large Inductive Compact Remote Capacitor Transmitter
+Medium Inductive Compact Remote Capacitor Transmitter
+Medium Inductive Compact Remote Capacitor Transmitter
+Medium Solace Scoped Remote Armor Repairer
+Medium Solace Scoped Remote Armor Repairer
+Medium Trimark Armor Pump II
+Medium Trimark Armor Pump II
+Republic Fleet Bouncer x1
+Scan Resolution Script x1
+Nanite Repair Paste x100
+ECCM Script x1
+Standard Mindflood Booster x1
+Dark Blood EM Armor Hardener x1
+
+30
+[Oneiros, WC TFI-Logi Oneiros]
+Damage Control II
+1600mm Steel Plates II
+Multispectrum Energized Membrane II
+EM Armor Hardener II
+Explosive Armor Hardener II
+Sensor Booster II
+Large Compact Pb-Acid Cap Battery
+Cap Recharger II
+10MN Afterburner II
+Large Remote Armor Repairer II
+Medium Remote Armor Repairer II
+Medium Remote Armor Repairer II
+Medium Remote Armor Repairer II
+Medium Trimark Armor Pump II
+Medium Trimark Armor Pump II
+Republic Fleet Bouncer x2
+Scan Resolution Script x1
+ECCM Script x1
+Nanite Repair Paste x100
+Standard Mindflood Booster x1
+Thermal Armor Hardener II x1
+Kinetic Armor Hardener II x1
+
+10
+[Rodiva, WC TFI-Logi Rodiva]
+Multispectrum Energized Membrane II
+Multispectrum Energized Membrane II
+Reactor Control Unit II
+800mm Rolled Tungsten Compact Plates
+Layered Coating II
+1600mm Rolled Tungsten Compact Plates
+Sensor Booster II
+Cap Recharger II
+Cap Recharger II
+10MN Monopropellant Enduring Afterburner
+Heavy Mutadaptive Compact Remote Armor Repairer
+Medium Trimark Armor Pump I
+Medium Trimark Armor Pump I
+Medium Trimark Armor Pump I
+Scan Resolution Script x1
+Standard Mindflood Booster x2
+
+40
+[Exequror, WC TFI-Logi Exequror]
+Damage Control II
+Multispectrum Energized Membrane II
+Multispectrum Energized Membrane II
+800mm Rolled Tungsten Compact Plates
+Layered Coating II
+1600mm Rolled Tungsten Compact Plates
+Sensor Booster II
+Cap Recharger II
+Cap Recharger II
+10MN Monopropellant Enduring Afterburner
+Small Remote Armor Repairer II
+Small Remote Armor Repairer II
+Small Remote Armor Repairer II
+Medium Trimark Armor Pump I
+Medium Trimark Armor Pump I
+Medium Trimark Armor Pump I
+Warrior II x5
+Light Armor Maintenance Bot I x5
+Scan Resolution Script x1
+
+10
+[Damnation, WC TFI-Links Damnation]
+Damage Control II
+Thermal Armor Hardener II
+Dark Blood Multispectrum Energized Membrane
+EM Armor Hardener II
+Imperial Navy 1600mm Steel Plates
+1600mm Rolled Tungsten Compact Plates
+10MN Afterburner II
+50MN Y-T8 Compact Microwarpdrive
+Small F-RX Compact Capacitor Booster
+Target Painter II
+Small Ghoul Compact Energy Nosferatu
+Armor Command Burst II
+Armor Command Burst II
+Armor Command Burst II
+Medium Trimark Armor Pump II
+Medium Command Processor I
+Imperial Navy Praetor x4
+Navy Cap Booster 400 x50
+
+15
+[Huginn, WC TFI-Support Web Huginn]
+Kinetic Armor Hardener II
+Imperial Navy 800mm Steel Plates
+Imperial Navy 1600mm Steel Plates
+Explosive Armor Hardener II
+Sensor Booster II
+Republic Fleet Target Painter
+True Sansha Stasis Webifier
+Small Capacitor Booster II
+Dark Blood Stasis Webifier
+10MN Afterburner II
+Medium Trimark Armor Pump II
+Medium Trimark Armor Pump II
+Navy Cap Booster 400 x1
+
+10
+[Bhaalgorn, WC TFI-Support Web Bhaalgorn]
+Damage Control II
+Thermal Armor Hardener II
+1600mm Steel Plates II
+1600mm Steel Plates II
+Imperial Navy Multispectrum Energized Membrane
+Kinetic Armor Hardener II
+Explosive Armor Hardener II
+Sensor Booster II
+100MN Afterburner II
+True Sansha Stasis Webifier
+Large Cap Battery II
+Dark Blood Stasis Webifier
+Heavy Energy Nosferatu II
+Heavy Energy Nosferatu II
+Heavy Energy Nosferatu II
+Heavy Energy Neutralizer II
+Heavy Energy Neutralizer II
+Heavy Energy Neutralizer II
+Heavy Energy Neutralizer II
+Large Trimark Armor Pump II
+Large Trimark Armor Pump II
+Large Trimark Armor Pump II
+Hornet EC-300 x5
+Berserker II x5
+Targeting Range Script x1
+Scan Resolution Script x1
+ECCM Script x1
+Improved Cloaking Device II x1
+Heavy Gremlin Compact Energy Neutralizer x4
+Inertial Stabilizers II x3
+500MN Quad LiF Restrained Microwarpdrive x1
+
+10
+[Devoter, WC TFI-Support Devoter]
+Thermal Armor Hardener II
+1600mm Steel Plates II
+1600mm Steel Plates II
+Multispectrum Energized Membrane II
+Damage Control II
+EM Armor Hardener II
+Kinetic Armor Hardener II
+50MN Y-T8 Compact Microwarpdrive
+F-90 Compact Sensor Booster
+Small Capacitor Booster II
+Pitfall Compact Warp Disruption Field Generator
+Pitfall Compact Warp Disruption Field Generator
+True Sansha Warp Disruption Field Generator
+Medium Trimark Armor Pump I
+Medium Trimark Armor Pump I
+Focused Warp Scrambling Script x3
+Focused Warp Disruption Script x3
+ECCM Script x1
+
+200
+[Muninn, WC Muninn-DPS Muninn]
+Mark I Compact Power Diagnostic System
+Gyrostabilizer II
+Gyrostabilizer II
+Tracking Enhancer II
+Tracking Enhancer II
+Assault Damage Control II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+Medium Core Defense Field Extender I
+Medium Core Defense Field Extender I
+Hornet EC-300 x5
+Republic Fleet Phased Plasma M x1000
+Tremor M x2000
+Republic Fleet Proton M x2000
+Republic Fleet EMP M x2000
+Republic Fleet Depleted Uranium M x2000
+Republic Fleet Fusion M x2000
+Republic Fleet Titanium Sabot M x1000
+Nanite Repair Paste x100
+Quake M x1000
+10MN Afterburner II x1
+Gyrostabilizer II x1
+Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802 x1
+Eifyr and Co. 'Gunslinger' Motion Prediction MR-702 x1
+Eifyr and Co. 'Gunslinger' Surgical Strike SS-902 x1
+
+40
+[Scimitar, WC Muninn-Logi Scimitar]
+Damage Control II
+Power Diagnostic System II
+Capacitor Power Relay II
+Capacitor Power Relay II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+Pithum C-Type Medium Remote Shield Booster
+Pithum C-Type Medium Remote Shield Booster
+Large S95a Scoped Remote Shield Booster
+Large S95a Scoped Remote Shield Booster
+Medium Capacitor Control Circuit II
+Medium Core Defense Field Extender II
+Warrior II x5
+Hornet EC-300 x4
+Nanite Repair Paste x50
+10MN Afterburner II x1
+Power Diagnostic System II x2
+
+50
+[Scythe, WC Muninn-Logi Scythe]
+Capacitor Power Relay II
+Capacitor Power Relay II
+Capacitor Power Relay II
+Capacitor Power Relay II
+IFFA Compact Damage Control
+Large Shield Extender II
+Multispectrum Shield Hardener II
+50MN Y-T8 Compact Microwarpdrive
+Cap Recharger II
+Cap Recharger II
+Medium S95a Scoped Remote Shield Booster
+Medium S95a Scoped Remote Shield Booster
+Medium S95a Scoped Remote Shield Booster
+Medium EM Shield Reinforcer I
+Medium Core Defense Field Extender I
+Medium Core Defense Field Extender I
+Hornet EC-300 x4
+Light Shield Maintenance Bot I x5
+
+15
+[Claymore, WC Muninn-Links Claymore]
+Damage Control II
+Nanofiber Internal Structure II
+Nanofiber Internal Structure II
+Overdrive Injector System II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+Republic Fleet Large Shield Extender
+Republic Fleet Large Shield Extender
+Republic Fleet Large Shield Extender
+Shield Command Burst II
+Shield Command Burst II
+Shield Command Burst II
+Medium YF-12a Smartbomb
+Medium YF-12a Smartbomb
+Heavy Missile Launcher II
+Medium Command Processor I
+Medium Core Defense Field Extender II
+Shield Extension Charge x300
+Caldari Navy Scourge Heavy Missile x40
+Active Shielding Charge x300
+Shield Harmonizing Charge x300
+10MN Afterburner II x1
+
+15
+[Huginn, WC Muninn-Support Huginn]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Power Diagnostic System II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+Dark Blood Stasis Webifier
+Drone Link Augmentor I
+Drone Link Augmentor I
+Medium Core Defense Field Extender II
+Medium Core Defense Field Extender II
+Warrior II x8
+Nanite Repair Paste x100
+Kinetic Shield Hardener II x1
+Target Painter II x1
+
+30
+[Hyena, WC Muninn-Support Hyena]
+Power Diagnostic System II
+Power Diagnostic System II
+IFFA Compact Damage Control
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Medium Azeotropic Restrained Shield Extender
+Target Painter II
+Auto Targeting System I
+125mm Gatling AutoCannon II
+Small Core Defense Field Extender II
+Small Core Defense Field Extender II
+Republic Fleet EMP S x400
+Nanite Repair Paste x30
+10MN Afterburner II x1
+Target Painter II x1
+
+50
+[Crucifier, WC Muninn-Support Crucifier]
+Damage Control II
+Micro Auxiliary Power Core I
+F-89 Compact Signal Amplifier
+DDO Scoped Tracking Disruptor I
+DDO Scoped Tracking Disruptor I
+5MN Cold-Gas Enduring Microwarpdrive
+Medium Shield Extender II
+Small Particle Dispersion Projector I
+Small Core Defense Field Extender I
+Small Ionic Field Projector I
+Warrior I x9
+Optimal Range Disruption Script x2
+Tracking Speed Disruption Script x2
+
+150
+[Cerberus, WC-EN Cerb-DPS Cerberus]
+Signal Amplifier II
+Ballistic Control System II
+Ballistic Control System II
+Assault Damage Control II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+50MN Cold-Gas Enduring Microwarpdrive
+EM Shield Hardener II
+Heavy Missile Launcher II
+Heavy Missile Launcher II
+Heavy Missile Launcher II
+Heavy Missile Launcher II
+Heavy Missile Launcher II
+Heavy Missile Launcher II
+Medium Rocket Fuel Cache Partition II
+Medium Hydraulic Bay Thrusters II
+Hornet EC-300 x3
+Caldari Navy Scourge Light Missile x1080
+Scourge Fury Heavy Missile x4080
+Caldari Navy Mjolnir Heavy Missile x1920
+Scourge Fury Light Missile x1080
+Caldari Navy Scourge Heavy Missile x1920
+Missile Range Script x1
+Missile Precision Script x1
+Mjolnir Fury Light Missile x1080
+Caldari Navy Inferno Heavy Missile x960
+Caldari Navy Mjolnir Light Missile x1080
+Nanite Repair Paste x100
+Mjolnir Fury Heavy Missile x1920
+Inferno Fury Heavy Missile x960
+Agency 'Overclocker' SB3 Dose I x1
+Ballistic Control System II x1
+Overdrive Injector System II x1
+Nanofiber Internal Structure II x1
+Missile Guidance Computer II x1
+Rapid Light Missile Launcher II x6
+
+30
+[Scimitar, WC-EN Cerb-Logi Scimitar]
+Damage Control II
+Power Diagnostic System II
+Capacitor Power Relay II
+Capacitor Power Relay II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+Pithum C-Type Medium Remote Shield Booster
+Pithum C-Type Medium Remote Shield Booster
+Large S95a Scoped Remote Shield Booster
+Large S95a Scoped Remote Shield Booster
+Medium Capacitor Control Circuit II
+Medium Core Defense Field Extender II
+Warrior II x5
+Hornet EC-300 x4
+Nanite Repair Paste x50
+10MN Afterburner II x1
+Power Diagnostic System II x2
+
+50
+[Scythe, WC-EN Cerb-Logi Scythe]
+Capacitor Power Relay II
+Capacitor Power Relay II
+Capacitor Power Relay II
+Capacitor Power Relay II
+IFFA Compact Damage Control
+Large Shield Extender II
+Multispectrum Shield Hardener II
+50MN Y-T8 Compact Microwarpdrive
+Cap Recharger II
+Cap Recharger II
+Medium S95a Scoped Remote Shield Booster
+Medium S95a Scoped Remote Shield Booster
+Medium S95a Scoped Remote Shield Booster
+Medium EM Shield Reinforcer I
+Medium Core Defense Field Extender I
+Medium Core Defense Field Extender I
+Hornet EC-300 x4
+Light Shield Maintenance Bot I x5
+
+15
+[Claymore, WC-EN Cerb-Links Claymore]
+Damage Control II
+Nanofiber Internal Structure II
+Nanofiber Internal Structure II
+Overdrive Injector System II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+Republic Fleet Large Shield Extender
+Republic Fleet Large Shield Extender
+Republic Fleet Large Shield Extender
+Shield Command Burst II
+Shield Command Burst II
+Shield Command Burst II
+Medium YF-12a Smartbomb
+Medium YF-12a Smartbomb
+Heavy Missile Launcher II
+Medium Core Defense Field Extender II
+Medium Command Processor I
+Shield Extension Charge x300
+Caldari Navy Scourge Heavy Missile x40
+Active Shielding Charge x300
+Shield Harmonizing Charge x300
+10MN Afterburner II x1
+
+50
+[Bifrost, WC-EN Cerb-Links Bifrost]
+Damage Control II
+Micro Auxiliary Power Core I
+Co-Processor II
+Micro Jump Field Generator
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Medium Shield Extender II
+Republic Fleet Medium Shield Extender
+Skirmish Command Burst II
+Skirmish Command Burst II
+Defender Launcher I
+'Arbalest' Rocket Launcher I
+Small Core Defense Field Extender II
+Small Command Processor I
+Mjolnir Rocket x450
+Rapid Deployment Charge x300
+Evasive Maneuvers Charge x300
+Defender Missile I x20
+Interdiction Maneuvers Charge x300
+Kinetic Shield Amplifier II x1
+
+50
+[Stork, WC-EN Cerb-Links Stork]
+Power Diagnostic System II
+IFFA Compact Damage Control
+Micro Jump Field Generator
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Compact EM Shield Hardener
+Medium Shield Extender II
+Republic Fleet Medium Shield Extender
+Shield Command Burst II
+Shield Command Burst II
+'Arbalest' Rocket Launcher I
+Small Core Defense Field Extender II
+Small Command Processor I
+Active Shielding Charge x300
+Shield Harmonizing Charge x300
+Shield Extension Charge x300
+Defender Missile I x20
+Mjolnir Rocket x450
+Nanite Repair Paste x30
+EM Shield Amplifier II x1
+
+50
+[Vigil,  WC-EN Cerb-Support Vigil]
+Mark I Compact Capacitor Power Relay
+Mark I Compact Capacitor Power Relay
+Phased Scoped Target Painter
+Phased Scoped Target Painter
+Phased Scoped Target Painter
+Alumel-Wired Enduring Sensor Booster
+5MN Cold-Gas Enduring Microwarpdrive
+Small Particle Dispersion Projector I
+Small Particle Dispersion Projector I
+Small Ionic Field Projector I
+Warrior I x1
+Targeting Range Script x1
+
+150
+[Drake Navy Issue, WC DHNI-DPS DNI v1.0]
+IFFA Compact Damage Control
+Ballistic Control System II
+Ballistic Control System II
+Ballistic Control System II
+Balmer Series Compact Tracking Disruptor I
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Y-T8 Compact Microwarpdrive
+Caldari Navy Large Shield Extender
+Caldari Navy Large Shield Extender
+Heavy Missile Launcher II
+Heavy Missile Launcher II
+Heavy Missile Launcher II
+Heavy Missile Launcher II
+Heavy Missile Launcher II
+Heavy Missile Launcher II
+Heavy Missile Launcher II
+Medium EM Shield Reinforcer II
+Medium Core Defense Field Extender II
+Medium Hydraulic Bay Thrusters II
+Warrior II x2
+Hornet EC-300 x4
+Missile Range Script x1
+Targeting Range Dampening Script x1
+Scourge Fury Heavy Missile x1280
+Caldari Navy Mjolnir Heavy Missile x1000
+Optimal Range Disruption Script x1
+Caldari Navy Nova Heavy Missile x1000
+Caldari Navy Scourge Heavy Missile x1000
+Tracking Speed Disruption Script x1
+Missile Precision Script x1
+Scan Resolution Dampening Script x1
+Caldari Navy Inferno Heavy Missile x1000
+Nova Fury Heavy Missile x1000
+Nanite Repair Paste x100
+Mjolnir Fury Heavy Missile x1000
+Inferno Fury Heavy Missile x1000
+Missile Guidance Computer II x1
+Phased Muon Scoped Sensor Dampener x1
+Zainou 'Deadeye' Rapid Launch RL-1002 x1
+Zainou 'Deadeye' Guided Missile Precision GP-802 x1
+Zainou 'Snapshot' Heavy Missiles HM-702 x1
+Zainou 'Deadeye' Target Navigation Prediction TN-902 x1
+
+150
+[Hurricane Fleet Issue, WC DHNI-DPS HFI v1.0]
+Damage Control II
+Gyrostabilizer II
+Gyrostabilizer II
+Gyrostabilizer II
+Tracking Enhancer II
+Tracking Enhancer II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Y-T8 Compact Microwarpdrive
+Light Missile Launcher II
+Light Missile Launcher II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+Medium EM Shield Reinforcer II
+Medium Core Defense Field Extender I
+Medium Core Defense Field Extender I
+Republic Fleet Phased Plasma M x1000
+Tremor M x1000
+Republic Fleet EMP M x1120
+Caldari Navy Inferno Light Missile x1000
+Republic Fleet Depleted Uranium M x1000
+Republic Fleet Fusion M x1000
+Republic Fleet Proton M x1000
+Nanite Repair Paste x100
+Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-802 x1
+Eifyr and Co. 'Gunslinger' Motion Prediction MR-702 x1
+Eifyr and Co. 'Gunslinger' Surgical Strike SS-902 x1
+
+30
+[Basilisk, WC DHNI-Logi Basilisk v1.0]
+Damage Control II
+Reactor Control Unit II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+EM Shield Hardener II
+Large S95a Scoped Remote Shield Booster
+Large Remote Shield Booster II
+Large Inductive Compact Remote Capacitor Transmitter
+Large Inductive Compact Remote Capacitor Transmitter
+Large Murky Compact Remote Shield Booster
+Large Murky Compact Remote Shield Booster
+Medium Core Defense Field Extender II
+Medium Core Defense Field Extender II
+Warrior II x5
+
+15
+[Vulture, WC DHNI-Links Vulture v1.0]
+Damage Control II
+Nanofiber Internal Structure II
+Overdrive Injector System II
+Overdrive Injector System II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+50MN Cold-Gas Enduring Microwarpdrive
+EM Shield Hardener II
+Target Painter II
+Shield Command Burst II
+Shield Command Burst II
+Skirmish Command Burst II
+Domination Medium Proton Smartbomb
+Domination Medium Proton Smartbomb
+Domination Medium Proton Smartbomb
+Medium Command Processor I
+Medium Core Defense Field Extender II
+
+15
+[Claymore, WC DHNI-Links Claymore v1.0]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Power Diagnostic System II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+Republic Fleet Large Shield Extender
+Republic Fleet Large Shield Extender
+Republic Fleet Large Shield Extender
+Shield Command Burst II
+Shield Command Burst II
+Shield Command Burst II
+Medium YF-12a Smartbomb
+Medium YF-12a Smartbomb
+Medium YF-12a Smartbomb
+Medium Core Defense Field Extender II
+Medium Command Processor I
+
+15
+[Huginn, WC DHNI-Web Huginn v1.0]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Power Diagnostic System II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+Dark Blood Stasis Webifier
+Drone Link Augmentor I
+Drone Link Augmentor I
+Medium Core Defense Field Extender II
+Medium Core Defense Field Extender II
+Warrior II x8
+Nanite Repair Paste x100
+Kinetic Shield Hardener II x1
+Target Painter II x1
+
+15
+[Lachesis, WC DHNI-Special Lachesis v1.0]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Power Diagnostic System II
+Large Shield Extender II
+Large Shield Extender II
+Domination Warp Disruptor
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+Pith C-Type EM Shield Hardener
+250mm Railgun II
+250mm Railgun II
+250mm Railgun II
+250mm Railgun II
+Medium Core Defense Field Extender II
+Medium Core Defense Field Extender II
+Nanite Repair Paste x1000
+Spike M x160
+
+30
+[Broadsword, WC DHNI-Tackle Broadsword v1.0]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Co-Processor II
+Large Shield Extender II
+Large Shield Extender II
+Medium Capacitor Booster II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+125mm Light 'Scout' Autocannon I
+Warp Disruption Field Generator II
+Warp Disruption Field Generator II
+Warp Disruption Field Generator II
+Warp Disruption Field Generator II
+Medium Core Defense Field Extender II
+Medium Core Defense Field Extender II
+EMP S x200
+Focused Warp Scrambling Script x5
+Focused Warp Disruption Script x5
+Nanite Repair Paste x2
+Navy Cap Booster 800 x10
+
+30
+[Hyena, WC DHNI-Ewar Hyena v1.0]
+Power Diagnostic System II
+Power Diagnostic System II
+IFFA Compact Damage Control
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Medium Azeotropic Restrained Shield Extender
+Target Painter II
+125mm Gatling AutoCannon II
+Auto Targeting System I
+Small Core Defense Field Extender II
+Small Core Defense Field Extender II
+Republic Fleet EMP S x400
+Nanite Repair Paste x30
+10MN Afterburner II x1
+Stasis Webifier II x1
+
+250
+[Ferox, WC Ferox- DPS]
+Damage Control II
+Mark I Compact Reactor Control Unit
+Magnetic Field Stabilizer II
+Magnetic Field Stabilizer II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+Small Capacitor Booster II
+EM Shield Hardener II
+250mm Railgun II
+250mm Railgun II
+250mm Railgun II
+250mm Railgun II
+250mm Railgun II
+250mm Railgun II
+Small YF-12a Smartbomb
+Medium Thermal Shield Reinforcer II
+Medium Core Defense Field Extender I
+Medium Core Defense Field Extender I
+Hornet EC-300 x5
+Javelin M x1000
+Spike M x1000
+Navy Cap Booster 400 x26
+Caldari Navy Antimatter Charge M x2000
+Caldari Navy Thorium Charge M x1500
+Caldari Navy Iridium Charge M x1500
+Nanite Repair Paste x30
+Caldari Navy Iron Charge M x1500
+Agency 'Pyrolancea' DB3 Dose I x1
+
+100
+[Jackdaw, WC Jackdaw-DPS Jackdaw]
+Mark I Compact Power Diagnostic System
+IFFA Compact Damage Control
+Ballistic Control System II
+Medium F-S9 Regolith Compact Shield Extender
+Multispectrum Shield Hardener II
+Missile Guidance Computer II
+5MN Y-T8 Compact Microwarpdrive
+EM Shield Amplifier II
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+Defender Launcher I
+Small Core Defense Field Extender I
+Small Core Defense Field Extender I
+Small Rocket Fuel Cache Partition II
+Caldari Navy Scourge Light Missile x600
+Caldari Navy Inferno Light Missile x600
+Defender Missile I x100
+Missile Range Script x1
+Caldari Navy Nova Light Missile x600
+Caldari Navy Mjolnir Light Missile x600
+
+50
+[Scythe, WC Hurricane/Ferox - Scythe - Logi]
+Damage Control II
+Power Diagnostic System II
+Capacitor Power Relay II
+Capacitor Power Relay II
+Capacitor Power Relay II
+Multispectrum Shield Hardener II
+50MN Y-T8 Compact Microwarpdrive
+Large F-S9 Regolith Compact Shield Extender
+Large F-S9 Regolith Compact Shield Extender
+Medium Compact Pb-Acid Cap Battery
+Medium Murky Compact Remote Shield Booster
+Medium Murky Compact Remote Shield Booster
+Small Asymmetric Enduring Remote Shield Booster
+Medium Ancillary Current Router I
+Medium EM Shield Reinforcer I
+Medium Core Defense Field Extender I
+Light Armor Maintenance Bot I x5
+Light Shield Maintenance Bot I x4
+Nanite Repair Paste x30
+Standard Mindflood Booster x1
+
+50
+[Osprey, WC Hurricane/Ferox - Osprey - Logi]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+Large F-S9 Regolith Compact Shield Extender
+Large F-S9 Regolith Compact Shield Extender
+EM Shield Hardener II
+Medium Murky Compact Remote Shield Booster
+Medium Murky Compact Remote Shield Booster
+Medium Murky Compact Remote Shield Booster
+Medium Inductive Compact Remote Capacitor Transmitter
+Medium Inductive Compact Remote Capacitor Transmitter
+Medium Core Defense Field Extender I
+Medium Core Defense Field Extender I
+Medium Thermal Shield Reinforcer II
+
+50
+[Drake, WC Hurricane/Ferox - Drake - Links]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Overdrive Injector System II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Microwarpdrive II
+EM Shield Amplifier II
+Shield Command Burst II
+Shield Command Burst II
+Shield Command Burst II
+Medium EMP Smartbomb II
+Medium EMP Smartbomb II
+'Malkuth' Rocket Launcher I
+Small EMP Smartbomb II
+Medium Core Defense Field Extender I
+Medium Command Processor I
+Medium Command Processor I
+Warrior II x5
+Shield Extension Charge x476
+Nanite Repair Paste x50
+Active Shielding Charge x475
+Shield Harmonizing Charge x476
+
+50
+[Bellicose, WC Hurricane/Ferox - Bellicose - Ewar]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Power Diagnostic System II
+Large Shield Extender II
+Large Shield Extender II
+Phased Scoped Target Painter
+50MN Quad LiF Restrained Microwarpdrive
+Multispectrum Shield Hardener II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Medium EM Shield Reinforcer II
+Medium Core Defense Field Extender I
+Medium Core Defense Field Extender I
+Hornet EC-300 x2
+Caldari Navy Scourge Light Missile x500
+Caldari Navy Inferno Light Missile x248
+Caldari Navy Nova Light Missile x500
+Caldari Navy Mjolnir Light Missile x500
+Target Painter II x1
+
+50
+[Blackbird, WC Hurricane/Ferox - Blackbird - Ewar]
+Damage Control II
+Signal Distortion Amplifier II
+Signal Distortion Amplifier II
+Large Shield Extender II
+50MN Quad LiF Restrained Microwarpdrive
+Gravimetric ECM II
+Gravimetric ECM II
+Ladar ECM II
+Ladar ECM II
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+Drone Link Augmentor I
+Medium Ionic Field Projector I
+Medium Ionic Field Projector I
+Medium Inverted Signal Field Projector I
+Hornet EC-300 x2
+Nanite Repair Paste x80
+Mjolnir Fury Light Missile x488
+Gravimetric ECM II x1
+
+30
+[Hyena, WC Hurricane/Ferox - Hyena - Ewar]
+Damage Control II
+Power Diagnostic System II
+Co-Processor II
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Stasis Webifier II
+Republic Fleet Medium Shield Extender
+125mm Gatling AutoCannon II
+125mm Gatling AutoCannon II
+Small Core Defense Field Extender II
+Small Core Defense Field Extender II
+Republic Fleet EMP S x1000
+Nanite Repair Paste x100
+Target Painter II x1
+
+150
+[Hurricane, WC Hurricane T2 - DPS]
+Damage Control II
+Gyrostabilizer II
+Gyrostabilizer II
+Reactor Control Unit II
+Tracking Enhancer II
+Tracking Enhancer II
+Large Shield Extender II
+50MN Quad LiF Restrained Microwarpdrive
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+Small 'Vehemence' Shockwave Charge
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+720mm Howitzer Artillery II
+Medium EM Shield Reinforcer II
+Medium Core Defense Field Extender I
+Medium Core Defense Field Extender I
+Warrior II x5
+Hornet EC-300 x3
+Republic Fleet Phased Plasma M x1000
+Tremor M x1000
+Republic Fleet EMP M x1000
+Republic Fleet Depleted Uranium M x1000
+Republic Fleet Fusion M x1000
+Republic Fleet Titanium Sabot M x1000
+Nanite Repair Paste x150
+Quake M x1000
+
+100
+[Jackdaw, WC Jackdaw-DPS Jackdaw]
+Mark I Compact Power Diagnostic System
+IFFA Compact Damage Control
+Ballistic Control System II
+Medium F-S9 Regolith Compact Shield Extender
+Multispectrum Shield Hardener II
+Missile Guidance Computer II
+5MN Y-T8 Compact Microwarpdrive
+EM Shield Amplifier II
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+Defender Launcher I
+Small Core Defense Field Extender I
+Small Core Defense Field Extender I
+Small Rocket Fuel Cache Partition II
+Caldari Navy Scourge Light Missile x600
+Caldari Navy Inferno Light Missile x600
+Defender Missile I x100
+Missile Range Script x1
+Caldari Navy Nova Light Missile x600
+Caldari Navy Mjolnir Light Missile x600
+
+50
+[Scythe, WC Hurricane/Ferox - Scythe - Logi]
+Damage Control II
+Power Diagnostic System II
+Capacitor Power Relay II
+Capacitor Power Relay II
+Capacitor Power Relay II
+Multispectrum Shield Hardener II
+50MN Y-T8 Compact Microwarpdrive
+Large F-S9 Regolith Compact Shield Extender
+Large F-S9 Regolith Compact Shield Extender
+Medium Compact Pb-Acid Cap Battery
+Medium Murky Compact Remote Shield Booster
+Medium Murky Compact Remote Shield Booster
+Small Asymmetric Enduring Remote Shield Booster
+Medium Ancillary Current Router I
+Medium EM Shield Reinforcer I
+Medium Core Defense Field Extender I
+Light Armor Maintenance Bot I x5
+Light Shield Maintenance Bot I x4
+Nanite Repair Paste x30
+Standard Mindflood Booster x1
+
+50
+[Osprey, WC Hurricane/Ferox - Osprey - Logi]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Multispectrum Shield Hardener II
+50MN Quad LiF Restrained Microwarpdrive
+Large F-S9 Regolith Compact Shield Extender
+Large F-S9 Regolith Compact Shield Extender
+EM Shield Hardener II
+Medium Murky Compact Remote Shield Booster
+Medium Murky Compact Remote Shield Booster
+Medium Murky Compact Remote Shield Booster
+Medium Inductive Compact Remote Capacitor Transmitter
+Medium Inductive Compact Remote Capacitor Transmitter
+Medium Core Defense Field Extender I
+Medium Core Defense Field Extender I
+Medium Thermal Shield Reinforcer II
+
+50
+[Drake, WC Hurricane/Ferox - Drake - Links]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Overdrive Injector System II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Microwarpdrive II
+EM Shield Amplifier II
+Shield Command Burst II
+Shield Command Burst II
+Shield Command Burst II
+Medium EMP Smartbomb II
+Medium EMP Smartbomb II
+'Malkuth' Rocket Launcher I
+Small EMP Smartbomb II
+Medium Core Defense Field Extender I
+Medium Command Processor I
+Medium Command Processor I
+Warrior II x5
+Shield Extension Charge x476
+Nanite Repair Paste x50
+Active Shielding Charge x475
+Shield Harmonizing Charge x476
+
+50
+[Bellicose, WC Hurricane/Ferox - Bellicose - Ewar]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Power Diagnostic System II
+Large Shield Extender II
+Large Shield Extender II
+Phased Scoped Target Painter
+50MN Quad LiF Restrained Microwarpdrive
+Multispectrum Shield Hardener II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Medium EM Shield Reinforcer II
+Medium Core Defense Field Extender I
+Medium Core Defense Field Extender I
+Hornet EC-300 x2
+Caldari Navy Scourge Light Missile x500
+Caldari Navy Inferno Light Missile x248
+Caldari Navy Nova Light Missile x500
+Caldari Navy Mjolnir Light Missile x500
+Target Painter II x1
+
+50
+[Blackbird, WC Hurricane/Ferox - Blackbird - Ewar]
+Damage Control II
+Signal Distortion Amplifier II
+Signal Distortion Amplifier II
+Large Shield Extender II
+50MN Quad LiF Restrained Microwarpdrive
+Gravimetric ECM II
+Gravimetric ECM II
+Ladar ECM II
+Ladar ECM II
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+Drone Link Augmentor I
+Medium Ionic Field Projector I
+Medium Ionic Field Projector I
+Medium Inverted Signal Field Projector I
+Hornet EC-300 x2
+Nanite Repair Paste x80
+Mjolnir Fury Light Missile x488
+Gravimetric ECM II x1
+
+30
+[Hyena, WC Hurricane/Ferox - Hyena - Ewar]
+Damage Control II
+Power Diagnostic System II
+Co-Processor II
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Stasis Webifier II
+Republic Fleet Medium Shield Extender
+125mm Gatling AutoCannon II
+125mm Gatling AutoCannon II
+Small Core Defense Field Extender II
+Small Core Defense Field Extender II
+Republic Fleet EMP S x1000
+Nanite Repair Paste x100
+Target Painter II x1
+
+100
+[Caracal, WC Caracal - DPS]
+Damage Control II
+Ballistic Control System II
+Ballistic Control System II
+Missile Guidance Enhancer II
+Small Capacitor Booster II
+Large Shield Extender II
+Large Shield Extender II
+50MN Quad LiF Restrained Microwarpdrive
+Multispectrum Shield Hardener II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Medium Ionic Field Projector I
+Medium Hydraulic Bay Thrusters I
+Medium Rocket Fuel Cache Partition I
+Warrior II x2
+Caldari Navy Scourge Light Missile x1000
+Caldari Navy Inferno Light Missile x1000
+Nanite Repair Paste x50
+Cap Booster 200 x40
+Caldari Navy Mjolnir Light Missile x1000
+
+150
+[Stabber, WC Stabber - DPS]
+Gyrostabilizer II
+Gyrostabilizer II
+Gyrostabilizer II
+Tracking Enhancer II
+50MN Y-T8 Compact Microwarpdrive
+Initiated Compact Warp Scrambler
+Large F-S9 Regolith Compact Shield Extender
+Large F-S9 Regolith Compact Shield Extender
+220mm Vulcan AutoCannon II
+220mm Vulcan AutoCannon II
+220mm Vulcan AutoCannon II
+220mm Vulcan AutoCannon II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Medium EM Shield Reinforcer I
+Medium Hyperspatial Velocity Optimizer I
+Medium Hyperspatial Velocity Optimizer I
+Warrior II x5
+Republic Fleet EMP M x1280
+Hail M x3200
+Caldari Navy Mjolnir Light Missile x400
+
+50
+[Scythe, WC Caracal - Logi]
+Damage Control II
+Power Diagnostic System II
+Capacitor Power Relay II
+Capacitor Power Relay II
+Capacitor Power Relay II
+Multispectrum Shield Hardener II
+50MN Y-T8 Compact Microwarpdrive
+Large F-S9 Regolith Compact Shield Extender
+Large F-S9 Regolith Compact Shield Extender
+Medium Compact Pb-Acid Cap Battery
+Medium Murky Compact Remote Shield Booster
+Medium Murky Compact Remote Shield Booster
+Small Asymmetric Enduring Remote Shield Booster
+Medium Ancillary Current Router I
+Medium EM Shield Reinforcer I
+Medium Core Defense Field Extender I
+Light Shield Maintenance Bot I x4
+Light Armor Maintenance Bot I x5
+Nanite Repair Paste x30
+Standard Mindflood Booster x1
+
+50
+[Cyclone, WC Caracal - Links]
+Damage Control II
+Power Diagnostic System II
+Nanofiber Internal Structure II
+Nanofiber Internal Structure II
+Overdrive Injector System II
+Large Shield Extender II
+Large Shield Extender II
+Multispectrum Shield Hardener II
+Multispectrum Shield Hardener II
+50MN Cold-Gas Enduring Microwarpdrive
+Shield Command Burst II
+Shield Command Burst II
+Shield Command Burst II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Rapid Light Missile Launcher II
+Medium Command Processor I
+Medium Command Processor I
+Medium Hyperspatial Velocity Optimizer I
+Warrior II x5
+Hornet EC-300 x5
+Caldari Navy Scourge Light Missile x800
+Active Shielding Charge x300
+Shield Harmonizing Charge x300
+Shield Extension Charge x300
+Caldari Navy Inferno Light Missile x800
+Sensor Optimization Charge x300
+Caldari Navy Nova Light Missile x800
+Evasive Maneuvers Charge x300
+Interdiction Maneuvers Charge x300
+Rapid Deployment Charge x300
+Caldari Navy Mjolnir Light Missile x800
+Nanite Repair Paste x100
+10MN Afterburner II x1
+Skirmish Command Burst II x3
+Information Command Burst II x1
+
+100
+[Jackdaw, WC Jackdaw-DPS Jackdaw]
+Mark I Compact Power Diagnostic System
+IFFA Compact Damage Control
+Ballistic Control System II
+Medium F-S9 Regolith Compact Shield Extender
+Multispectrum Shield Hardener II
+Missile Guidance Computer II
+5MN Y-T8 Compact Microwarpdrive
+EM Shield Amplifier II
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+Defender Launcher I
+Small Core Defense Field Extender I
+Small Core Defense Field Extender I
+Small Rocket Fuel Cache Partition II
+Caldari Navy Scourge Light Missile x600
+Caldari Navy Inferno Light Missile x600
+Defender Missile I x100
+Missile Range Script x1
+Caldari Navy Nova Light Missile x600
+Caldari Navy Mjolnir Light Missile x600
+
+50
+[Cormorant, WC Jackdaw-DPS Cormorant]
+Magnetic Field Stabilizer II
+Magnetic Field Stabilizer II
+Sensor Booster II
+F-90 Compact Sensor Booster
+5MN Y-T8 Compact Microwarpdrive
+150mm Railgun II
+150mm Railgun II
+150mm Railgun II
+150mm Railgun II
+150mm Railgun II
+150mm Railgun II
+150mm Railgun II
+Small Hybrid Locus Coordinator I
+Small Hybrid Locus Coordinator I
+Small Ancillary Current Router I
+Caldari Navy Thorium Charge S x2000
+Spike S x2000
+Caldari Navy Iridium Charge S x2000
+Javelin S x2000
+Targeting Range Script x4
+Scan Resolution Script x2
+Federation Navy Antimatter Charge S x2000
+
+50
+[Kirin, WC Jackdaw-Logi Kirin]
+Power Diagnostic System II
+IFFA Compact Damage Control
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Small Capacitor Booster II
+Medium Azeotropic Restrained Shield Extender
+EM Shield Amplifier II
+Small S95a Scoped Remote Shield Booster
+Small S95a Scoped Remote Shield Booster
+Small S95a Scoped Remote Shield Booster
+Small Core Defense Field Extender II
+Small Core Defense Field Extender II
+Hobgoblin II x1
+Nanite Repair Paste x20
+Navy Cap Booster 400 x21
+
+50
+[Scalpel, WC Jackdaw-Logi Scalpel]
+Damage Control II
+Capacitor Power Relay II
+Capacitor Power Relay II
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Small Capacitor Booster II
+Medium Azeotropic Restrained Shield Extender
+Small S95a Scoped Remote Shield Booster
+Small S95a Scoped Remote Shield Booster
+Small S95a Scoped Remote Shield Booster
+Small Core Defense Field Extender II
+Small Core Defense Field Extender II
+Warrior II x1
+Nanite Repair Paste x20
+Navy Cap Booster 400 x15
+
+50
+[Bantam, WC Jackdaw-Logi Bantam]
+Power Diagnostic System II
+Capacitor Power Relay II
+Multispectrum Shield Hardener II
+Medium Azeotropic Restrained Shield Extender
+Small F-RX Compact Capacitor Booster
+5MN Y-T8 Compact Microwarpdrive
+Small S95a Scoped Remote Shield Booster
+Small S95a Scoped Remote Shield Booster
+Small S95a Scoped Remote Shield Booster
+Small EM Shield Reinforcer I
+Small Core Defense Field Extender I
+Small Core Defense Field Extender I
+Nanite Repair Paste x1
+Navy Cap Booster 400 x16
+
+50
+[Burst, WC Jackdaw-Logi Burst]
+Type-D Restrained Capacitor Power Relay
+Type-D Restrained Capacitor Power Relay
+IFFA Compact Damage Control
+5MN Quad LiF Restrained Microwarpdrive
+Medium Azeotropic Restrained Shield Extender
+Eutectic Compact Cap Recharger
+Small Asymmetric Enduring Remote Shield Booster
+Small Asymmetric Enduring Remote Shield Booster
+Small Asymmetric Enduring Remote Shield Booster
+Small Semiconductor Memory Cell I
+Small Semiconductor Memory Cell I
+Small Semiconductor Memory Cell I
+Warrior II x1
+
+50
+[Bifrost, WC Jackdaw-Links Bifrost]
+Damage Control II
+Micro Auxiliary Power Core I
+Co-Processor II
+Micro Jump Field Generator
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Medium Shield Extender II
+Republic Fleet Medium Shield Extender
+Skirmish Command Burst II
+Skirmish Command Burst II
+Defender Launcher I
+'Arbalest' Rocket Launcher I
+Small Core Defense Field Extender II
+Small Command Processor I
+Mjolnir Rocket x45
+Rapid Deployment Charge x300
+Evasive Maneuvers Charge x300
+Defender Missile I x20
+Interdiction Maneuvers Charge x300
+
+50
+[Stork, WC Jackdaw-Links Stork]
+Power Diagnostic System II
+IFFA Compact Damage Control
+Micro Jump Field Generator
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Compact EM Shield Hardener
+Medium Shield Extender II
+Republic Fleet Medium Shield Extender
+Shield Command Burst II
+Shield Command Burst II
+Defender Launcher I
+'Arbalest' Rocket Launcher I
+Small Core Defense Field Extender II
+Small Command Processor I
+Active Shielding Charge x300
+Shield Harmonizing Charge x300
+Shield Extension Charge x300
+Defender Missile I x100
+Caldari Navy Mjolnir Light Missile x500
+Nanite Repair Paste x30
+
+50
+[Keres, WC Jackdaw-Support Keres]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+Warp Scrambler II
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Warp Disruptor II
+Republic Fleet Medium Shield Extender
+125mm Gatling AutoCannon II
+125mm Gatling AutoCannon II
+Small Core Defense Field Extender II
+Small EM Shield Reinforcer II
+Warrior II x2
+Barrage S x400
+
+50
+[Maulus, WC Jackdaw-Support Maulus]
+Damage Control II
+Power Diagnostic System II
+Power Diagnostic System II
+5MN Quad LiF Restrained Microwarpdrive
+Phased Muon Scoped Sensor Dampener
+Phased Muon Scoped Sensor Dampener
+Medium F-S9 Regolith Compact Shield Extender
+Small EM Shield Reinforcer I
+Small Core Defense Field Extender I
+Small Core Defense Field Extender I
+Hornet EC-300 x6
+Targeting Range Script x1
+Targeting Range Dampening Script x2
+
+50
+[Crucifier, WC Jackdaw-Support Crucifier]
+Damage Control II
+Micro Auxiliary Power Core I
+F-89 Compact Signal Amplifier
+DDO Scoped Tracking Disruptor I
+DDO Scoped Tracking Disruptor I
+5MN Y-T8 Compact Microwarpdrive
+Medium Shield Extender II
+Small Particle Dispersion Projector I
+Small Core Defense Field Extender I
+Small Ionic Field Projector I
+Warrior I x9
+Optimal Range Disruption Script x2
+Tracking Speed Disruption Script x2
+
+30
+[Hyena, WC Jackdaw-Support Hyena]
+Power Diagnostic System II
+Power Diagnostic System II
+IFFA Compact Damage Control
+Multispectrum Shield Hardener II
+5MN Quad LiF Restrained Microwarpdrive
+Medium Azeotropic Restrained Shield Extender
+Target Painter II
+Auto Targeting System I
+125mm Gatling AutoCannon II
+Small Core Defense Field Extender II
+Small Core Defense Field Extender II
+Republic Fleet EMP S x400
+Nanite Repair Paste x30
+
+50
+[Vigil, WC Jackdaw-Support Vigil]
+Damage Control II
+Power Diagnostic System II
+Parallel Enduring Target Painter
+Parallel Enduring Target Painter
+F-90 Compact Sensor Booster
+5MN Y-T8 Compact Microwarpdrive
+Medium F-S9 Regolith Compact Shield Extender
+Small Core Defense Field Extender I
+Small Ancillary Current Router II
+Small EM Shield Reinforcer I
+Warrior II x1
+Targeting Range Script x1
+
+100
+[Retribution, WC Retri-DPS Retribution]
+Coreli A-Type Thermal Coating
+EFFA Compact Assault Damage Control
+Extruded Compact Heat Sink
+Multispectrum Coating II
+200mm Steel Plates II
+Initiated Compact Warp Scrambler
+5MN Quad LiF Restrained Microwarpdrive
+Small Focused Beam Laser II
+Small Focused Beam Laser II
+Small Focused Beam Laser II
+Small Focused Beam Laser II
+Small Energy Locus Coordinator II
+Small Ancillary Current Router I
+Nanite Repair Paste x100
+Aurora S x10
+Gleam S x14
+Imperial Navy Radio S x10
+Imperial Navy Standard S x10
+X5 Enduring Stasis Webifier x1
+
+50
+[Deacon, WC Retri-Logi Deacon]
+Damage Control II
+Multispectrum Energized Membrane II
+Multispectrum Coating II
+400mm Steel Plates II
+Micro Auxiliary Power Core II
+5MN Quad LiF Restrained Microwarpdrive
+Small F-RX Compact Capacitor Booster
+Small Remote Armor Repairer II
+Small Remote Armor Repairer II
+Small Remote Armor Repairer II
+Small Trimark Armor Pump II
+Small Trimark Armor Pump II
+Warrior II x1
+Nanite Repair Paste x100
+Navy Cap Booster 400 x20
+
+50
+[Thalia, WC Retri-Logi Thalia]
+Damage Control II
+Multispectrum Energized Membrane II
+Reactive Armor Hardener
+200mm Steel Plates II
+Small Capacitor Booster II
+5MN Quad LiF Restrained Microwarpdrive
+Cap Recharger II
+Small Remote Armor Repairer II
+Small Remote Armor Repairer II
+Small Remote Armor Repairer II
+Small Explosive Armor Reinforcer II
+Small Trimark Armor Pump II
+Nanite Repair Paste x100
+Navy Cap Booster 400 x20
+
+50
+[Pontifex, WC Retri-Links Pontifex]
+Damage Control II
+Imperial Navy 400mm Steel Plates
+Micro Auxiliary Power Core I
+Multispectrum Coating II
+Federation Navy Multispectrum Energized Membrane
+Micro Jump Field Generator
+5MN Quad LiF Restrained Microwarpdrive
+Target Painter II
+Armor Command Burst II
+Armor Command Burst II
+125mm Light 'Scout' Autocannon I
+Small Trimark Armor Pump II
+Small Command Processor I
+Hobgoblin II x5
+Warrior II x5
+Armor Energizing Charge x50
+Rapid Repair Charge x50
+Armor Reinforcement Charge x50
+Sensor Optimization Charge x50
+Electronic Superiority Charge x50
+Electronic Hardening Charge x50
+Nanite Repair Paste x100
+Depleted Uranium S x100
+
+100
+[Purifier, WC Bomber-Torpedo Purifier]
+Co-Processor II
+Ballistic Control System II
+Ballistic Control System II
+5MN Y-T8 Compact Microwarpdrive
+Small Shield Extender II
+Small Shield Extender II
+Bomb Launcher I
+Torpedo Launcher II
+Torpedo Launcher II
+Torpedo Launcher II
+Covert Ops Cloaking Device II
+Small Bay Loading Accelerator I
+Small Processor Overclocking Unit I
+Mjolnir Rage Torpedo x620
+Caldari Navy Mjolnir Torpedo x560
+
+50
+[Hound, WC Bomber-Torpedo Hound]
+Co-Processor II
+Ballistic Control System II
+Ballistic Control System II
+5MN Y-T8 Compact Microwarpdrive
+Small Shield Extender II
+Small Shield Extender II
+Bomb Launcher I
+Torpedo Launcher II
+Torpedo Launcher II
+Torpedo Launcher II
+Covert Ops Cloaking Device II
+Small Bay Loading Accelerator I
+Small Processor Overclocking Unit I
+Nova Rage Torpedo x620
+Caldari Navy Nova Torpedo x500
+
+50
+[Nemesis, WC Bomber-Torpedo Nemesis]
+Ballistic Control System II
+Ballistic Control System II
+Small F-S9 Regolith Compact Shield Extender
+Small F-S9 Regolith Compact Shield Extender
+5MN Y-T8 Compact Microwarpdrive
+Target Painter II
+Bomb Launcher I
+Torpedo Launcher II
+Torpedo Launcher II
+Torpedo Launcher II
+Covert Ops Cloaking Device II
+Small Processor Overclocking Unit I
+Small Processor Overclocking Unit I
+Inferno Rage Torpedo x620
+Caldari Navy Inferno Torpedo x500
+
+50
+[Manticore, WC Bomber-Torpedo Manticore]
+Crosslink Compact Ballistic Control System
+Ballistic Control System II
+Phased Scoped Target Painter
+5MN Y-T8 Compact Microwarpdrive
+Small F-S9 Regolith Compact Shield Extender
+Small F-S9 Regolith Compact Shield Extender
+Bomb Launcher I
+Torpedo Launcher II
+Torpedo Launcher II
+Torpedo Launcher II
+Covert Ops Cloaking Device II
+Small Bay Loading Accelerator I
+Small Processor Overclocking Unit I
+Caldari Navy Scourge Torpedo x500
+Scourge Rage Torpedo x620
+
+100
+[Sabre, WC Tackle-Dictor Sabre v1.0]
+Nanofiber Internal Structure II
+Nanofiber Internal Structure II
+Faint Epsilon Scoped Warp Scrambler
+Medium F-S9 Regolith Compact Shield Extender
+5MN Y-T8 Compact Microwarpdrive
+Medium Shield Extender II
+125mm Gatling AutoCannon II
+125mm Gatling AutoCannon II
+125mm Gatling AutoCannon II
+125mm Gatling AutoCannon II
+125mm Gatling AutoCannon II
+125mm Gatling AutoCannon II
+Improved Cloaking Device II
+Interdiction Sphere Launcher I
+Small Hyperspatial Velocity Optimizer II
+Small Hyperspatial Velocity Optimizer II
+Warp Disrupt Probe x70
+Republic Fleet EMP S x1500
+Nanite Repair Paste x100
+Republic Fleet Phased Plasma S x1500
+Republic Fleet Fusion S x1500
+
+50
+[Flycatcher, WC Tackle-Dictor Flycatcher v1.0]
+Nanofiber Internal Structure II
+Initiated Compact Warp Scrambler
+Multispectrum Shield Hardener II
+5MN Cold-Gas Enduring Microwarpdrive
+Medium Shield Extender II
+Medium F-S9 Regolith Compact Shield Extender
+Prototype Cloaking Device I
+'Arbalest' Rocket Launcher I
+'Arbalest' Rocket Launcher I
+'Arbalest' Rocket Launcher I
+'Arbalest' Rocket Launcher I
+125mm Gatling AutoCannon II
+125mm Gatling AutoCannon II
+Interdiction Sphere Launcher I
+Small Hyperspatial Velocity Optimizer II
+Small Hyperspatial Velocity Optimizer II
+EMP S x250
+Warp Disrupt Probe x87
+Caldari Navy Inferno Rocket x2000
+Nanite Repair Paste x100
+
+50
+[Malediction, WC Tackle-Tackle Malediction v1.0]
+Damage Control II
+Nanofiber Internal Structure II
+Overdrive Injector System II
+Small Ancillary Armor Repairer
+Warp Scrambler II
+Warp Disruptor II
+5MN Cold-Gas Enduring Microwarpdrive
+TE-2100 Ample Light Missile Launcher
+TE-2100 Ample Light Missile Launcher
+TE-2100 Ample Light Missile Launcher
+Small Auxiliary Thrusters II
+Small Ionic Field Projector II
+Caldari Navy Mjolnir Light Missile x1000
+Nanite Repair Paste x50
+
+50
+[Ares, WC Tackle-Tackle Ares v1.0]
+Damage Control II
+Nanofiber Internal Structure II
+Overdrive Injector System II
+Overdrive Injector System II
+Warp Disruptor II
+Republic Fleet Medium Shield Extender
+5MN Microwarpdrive II
+125mm Gatling AutoCannon II
+125mm Gatling AutoCannon II
+125mm Gatling AutoCannon II
+Small Auxiliary Thrusters II
+Small Ionic Field Projector I
+Barrage S x1000
+Nanite Repair Paste x50
+
+50
+[Stiletto, WC Tackle-Tackle Stiletto v1.0]
+Nanofiber Internal Structure II
+IFFA Compact Damage Control
+Overdrive Injector System II
+Warp Disruptor II
+5MN Y-T8 Compact Microwarpdrive
+Republic Fleet Medium Shield Extender
+Stasis Webifier II
+125mm Gatling AutoCannon II
+Small Auxiliary Thrusters II
+Small Ionic Field Projector II
+Republic Fleet EMP S x750
+Nanite Repair Paste x50
+
+50
+[Crow, WC Tackle-Tackle Crow v1.0]
+Damage Control II
+Nanofiber Internal Structure II
+Warp Scrambler II
+Warp Disruptor II
+5MN Y-T8 Compact Microwarpdrive
+Republic Fleet Medium Shield Extender
+Arbalest Compact Light Missile Launcher
+Small Auxiliary Thrusters II
+Small Ionic Field Projector II
+Caldari Navy Scourge Light Missile x1000
+Nanite Repair Paste x50
+
+50
+[Jaguar, Ram Jag Tackle]
+Nanofiber Internal Structure II
+Overdrive Injector System II
+Assault Damage Control II
+Warp Scrambler II
+Medium Ancillary Shield Booster
+Medium Ancillary Shield Booster
+5MN Y-T8 Compact Microwarpdrive
+Fleeting Compact Stasis Webifier
+Small Ghoul Compact Energy Nosferatu
+Small Kinetic Shield Reinforcer II
+Small Polycarbon Engine Housing II
+Navy Cap Booster 50 x18
+Agency 'Overclocker' SB3 Dose I x1
