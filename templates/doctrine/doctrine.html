@@ -17,8 +17,11 @@
             <td>{{ doctrine['percent'] }}</td>
             <td>{{ "{:,}".format(doctrine['price']) }}</td>
         </tr>
+        <tr>
+            <td colspan="2"><a href="{{ url_for('doctrine.update', id=doctrine['id']) }}">Update</a></td>
+            <td colspan="2"><a href="{{ url_for('doctrine.delete', id=doctrine['id']) }}">Delete</a></td>
+        </tr>
     </table>
-
     <table>
         <tr>
             <th>Item</th>
