@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Update Doctrine{% endblock %}
+
+{% block content %}
+    <h1>Update Doctrine</h1>
+    <form action="{{ url_for('doctrine.update', id=id) }}" method="post">
+        <textarea name="eft" id="eft" cols="30" rows="10"></textarea>
+        <input type="number" name="required" placeholder="required">
+        <input type="submit">
+    </form>
+{% endblock %}
