@@ -25,7 +25,7 @@ def add():
     return render_template('doctrine/add.html')
 
 
-@bp.route('/doctrine/<int:id>')
+@bp.route('/<int:id>')
 def doctrine(id):
     doctrine_dict = database.get_doctrine(id)
     return render_template('doctrine/doctrine.html', doctrine=doctrine_dict)
