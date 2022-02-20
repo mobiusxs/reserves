@@ -18,7 +18,7 @@ def index():
 def add():
     if request.method == 'POST':
         eft_paste = request.form.get('eft')
-        required = request.form.get('required')
+        required = int(request.form.get('required'))
         eft_dict = parse_eft(eft_paste)
         id = database.create_doctrine(eft_dict, required)
         return redirect(url_for('doctrine.doctrine', id=id))
