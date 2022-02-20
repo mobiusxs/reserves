@@ -84,6 +84,7 @@ def get_doctrine(doctrine_id: int) -> dict:
         items.append(item)
 
     doctrine = {
+        'id': doctrine_id,
         'name': doctrine_name,
         'required': doctrine_required,
         'available': doctrine_available,
@@ -118,8 +119,6 @@ def list_doctrines() -> list[dict]:
     conn = sqlite3.connect(config.DATABASE_PATH)
     c = conn.cursor()
     c.execute("SELECT doctrine.id, doctrine.name, doctrine.required, MIN(item.available/doctrine_item.required) FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id GROUP BY doctrine.id;")
-    # labels = 'id', 'name', 'required', 'available'
-    # doctrines = [dict(zip(labels, i)) for i in c.fetchall()]
     doctrines = []
     for doctrine in c.fetchall():
         id, name, required, available = doctrine
