@@ -31,7 +31,7 @@ def get_page_count(endpoint: str) -> int:
     return int(response.headers.get('X-Pages'))
 
 
-def get_orders(endpoint: str, page_count: int) -> list[dict]:
+def get_orders(endpoint: str, page_count: int):
     """Concurrently request all order pages from the market using
     the provided parameterized ESI endpoint. The base endpoint URL
     string will have the page argument appended to the query string.
@@ -53,7 +53,7 @@ def get_orders(endpoint: str, page_count: int) -> list[dict]:
     return orders
 
 
-def compress_orders(orders: list[dict]) -> list[tuple]:
+def compress_orders(orders):
     """Compress all market orders down to only the relevant values
     of relevant orders. All orders for like types are grouped.
     Volume is the sum of all orders for a type, and price is the
@@ -78,7 +78,7 @@ def compress_orders(orders: list[dict]) -> list[tuple]:
     return df.to_records()
 
 
-def insert_into_db(orders: list[tuple]) -> None:
+def insert_into_db(orders) -> None:
     """Iterate over all order tuples in the list and
     update the values in the database with the tuple data.
 
