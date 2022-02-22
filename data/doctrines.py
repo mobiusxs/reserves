@@ -1,7 +1,9 @@
 from doctrine.database import create_doctrine
 from utils.parsers import parse_eft
 
-file = open('doctrines.txt', 'r')
+from core import config
+
+file = open(config.DOCTRINES_PATH, 'r')
 fits = file.read().split('\n\n')
 for fit in fits:
     fit = fit.splitlines()

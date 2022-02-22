@@ -8,7 +8,7 @@ def main():
 
     conn = sqlite3.connect(config.DATABASE_PATH)
     c = conn.cursor()
-    schema = open('schema.sql')
+    schema = open(config.SCHEMA_PATH)
     c.executescript(schema.read())
     conn.commit()
     schema.close()
