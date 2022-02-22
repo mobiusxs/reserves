@@ -490,7 +490,7 @@ Nanite Repair Paste x30
 EM Shield Amplifier II x1
 
 30
-[Vigil,  WC-EN Cerb-Support Vigil]
+[Vigil, WC-EN Cerb-Support Vigil]
 Mark I Compact Capacitor Power Relay
 Mark I Compact Capacitor Power Relay
 Phased Scoped Target Painter
