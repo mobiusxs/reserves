@@ -1,0 +1,30 @@
+body {
+  background: url(/static/img/milky.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main {
+  background-color: rgb(33, 37, 41);
+}
+
+label, select, input {
+  color: white;
+}
+
+#table_info {
+  color: white;
+}
+
+
+#table_previous > a,
+#table_previous > a:hover,
+#table_previous > a.active,
+.pagination > li > a {
+  color: white;
+  background-color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+}
+
