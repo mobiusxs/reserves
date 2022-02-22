@@ -99,7 +99,7 @@ def get_doctrine(doctrine_id: int) -> dict:
     return doctrine
 
 
-def list_doctrines() -> list[dict]:
+def list_doctrines():
     """Retrieve all doctrines and related stats
 
     Example output:
