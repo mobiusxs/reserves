@@ -4,9 +4,22 @@
 
 {% block content %}
     <h1>Add Doctrine</h1>
-    <form action="{{ url_for('doctrine.add') }}" method="post">
-        <textarea name="eft" id="eft" cols="30" rows="10"></textarea>
-        <input type="number" name="required" placeholder="required" required>
-        <input type="submit">
+    <form class="pb-5 w-75 m-auto" action="{{ url_for('doctrine.add') }}" method="post">
+        <div class="mb-3">
+            <label for="required" class="form-label">Quantity</label>
+            <input type="number" class="form-control" id="required" name="required" placeholder="0" required>
+        </div>
+        <div class="mb-3">
+            <label for="eft" class="form-label">Fit - EFT Format</label>
+            <textarea class="form-control"  name="eft" id="eft" rows="10"
+                      placeholder="[Capsule, Shield Super]
+High-grade Nirvana Alpha
+High-grade Nirvana Beta
+High-grade Nirvana Delta
+High-grade Nirvana Epsilon
+High-grade Nirvana Gamma
+High-grade Nirvana Omega"></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary">Submit</button>
     </form>
 {% endblock %}

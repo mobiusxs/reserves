@@ -3,25 +3,26 @@
 {% block title %}Doctrine Items{% endblock %}
 
 {% block content %}
-    <h1>Doctrine Items</h1>
-    <p><a href="{{ url_for('doctrine.missing') }}">Buy All Missing Items</a></p>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Required</th>
-            <th>Available</th>
-            <th>Percent</th>
-            <th>Unit Price</th>
-        </tr>
-    {% for item in items %}
-        <tr>
-            <td>{{ item['name'] }}</td>
-            <td>{{ item['required'] }}</td>
-            <td>{{ item['available'] }}</td>
-            <td>{{ item['percent'] }}</td>
-            <td align="right">{{ "{:,.2f}".format(item['price']) }}</td>
-        </tr>
-    {% endfor %}
-
+    <table id="table" class="table table-dark table-striped table-hover">
+        <thead>
+            <tr>
+                <th class="text-center">Name</th>
+                <th class="text-center">Required</th>
+                <th class="text-center">Available</th>
+                <th class="text-center">Percent</th>
+                <th class="text-center">Unit Price</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for item in items %}
+            <tr>
+                <td>{{ item['name'] }}</td>
+                <td class="text-end">{{ "{:,.0f}".format(item['required']) }}</td>
+                <td class="text-end">{{ "{:,.0f}".format(item['available']) }}</td>
+                <td class="text-end">{{ item['percent'] }}</td>
+                <td class="text-end">{{ "{:,.2f}".format(item['price']) }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
     </table>
 {% endblock %}

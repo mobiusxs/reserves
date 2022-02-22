@@ -3,41 +3,47 @@
 {% block title %}View Doctrine{% endblock %}
 
 {% block content %}
-    <h1>{{ doctrine['name'] }}</h1>
-    <table>
-        <tr>
-            <th>Required</th>
-            <th>Available</th>
-            <th>Percent</th>
-            <th>Price</th>
-        </tr>
-        <tr>
-            <td>{{ doctrine['required'] }}</td>
-            <td>{{ doctrine['available'] }}</td>
-            <td>{{ doctrine['percent'] }}</td>
-            <td>{{ "{:,}".format(doctrine['price']) }}</td>
-        </tr>
-        <tr>
-            <td colspan="2"><a href="{{ url_for('doctrine.update', id=doctrine['id']) }}">Update</a></td>
-            <td colspan="2"><a href="{{ url_for('doctrine.delete', id=doctrine['id']) }}">Delete</a></td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <th>Item</th>
-            <th>Required</th>
-            <th>Available</th>
-            <th>Unit Price</th>
-            <th>Total Price</th>
-        </tr>
-    {% for item in doctrine['items'] %}
-        <tr>
-            <td>{{ item['name'] }}</td>
-            <td align="right">{{ "{:,}".format(item['required']) }}</td>
-            <td align="right">{{ "{:,}".format(item['available']) }}</td>
-            <td align="right">{{ "{:,.2f}".format(item['unit_price']) }}</td>
-            <td align="right">{{ "{:,.2f}".format(item['total_price']) }}</td>
-        </tr>
-    {% endfor %}
+    <h2 class="text-white display-3">{{ doctrine['name'] }}</h2>
+    <div class="w-25">
+        <table class="table table-dark table-striped table-hover">
+            <tr>
+                <td>Required: </td>
+                <td class="text-end">{{ doctrine['required'] }}</td>
+            </tr>
+            <tr>
+                <td>Available: </td>
+                <td class="text-end">{{ doctrine['available'] }}</td>
+            </tr>
+            <tr>
+                <td>Percent: </td>
+                <td class="text-end">{{ doctrine['percent'] }}</td>
+            </tr>
+            <tr>
+                <td>Price: </td>
+                <td class="text-end">{{ "{:,.2f}".format(doctrine['price']) }}</td>
+            </tr>
+        </table>
+    </div>
+    <table id="table" class="table table-dark table-striped table-hover">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Required</th>
+                <th>Available</th>
+                <th>Unit Price</th>
+                <th>Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for item in doctrine['items'] %}
+            <tr>
+                <td>{{ item['name'] }}</td>
+                <td class="text-end">{{ item['required'] }}</td>
+                <td class="text-end">{{ item['available'] }}</td>
+                <td class="text-end">{{ "{:,.2f}".format(item['unit_price']) }}</td>
+                <td class="text-end">{{ "{:,.2f}".format(item['total_price']) }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
     </table>
 {% endblock %}

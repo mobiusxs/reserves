@@ -3,24 +3,26 @@
 {% block title %}Doctrines{% endblock %}
 
 {% block content %}
-    <h1>Doctrines</h1>
-    <p><a href="{{ url_for('doctrine.add') }}">Add Doctrine</a></p>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Required</th>
-            <th>Available</th>
-            <th>Percent</th>
-            <th></th>
-        </tr>
-    {% for doctrine in doctrines %}
-        <tr>
-            <td><a href="{{ url_for('doctrine.doctrine', id=doctrine['id']) }}">{{ doctrine['name'] }}</a></td>
-            <td>{{ doctrine['required'] }}</td>
-            <td>{{ doctrine['available'] }}</td>
-            <td>{{ doctrine['percent'] }}</td>
-            <td><a href="{{ url_for('doctrine.delete', id=doctrine['id']) }}">Delete</a></td>
-        </tr>
-    {% endfor %}
+    <table id="table" class="table table-dark table-striped table-hover">
+        <thead>
+            <tr>
+                <th class="text-center">Name</th>
+                <th class="text-center">Required</th>
+                <th class="text-center">Available</th>
+                <th class="text-center">Percent</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for doctrine in doctrines %}
+            <tr>
+                <td><a href="{{ url_for('doctrine.doctrine', id=doctrine['id']) }}">{{ doctrine['name'] }}</a></td>
+                <td class="text-end">{{ doctrine['required'] }}</td>
+                <td class="text-end">{{ doctrine['available'] }}</td>
+                <td class="text-end">{{ doctrine['percent'] }}</td>
+                <td class="text-center"><a href="{{ url_for('doctrine.delete', id=doctrine['id']) }}">Delete</a></td>
+            </tr>
+        {% endfor %}
+        </tbody>
     </table>
 {% endblock %}
