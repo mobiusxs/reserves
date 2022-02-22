@@ -8,8 +8,6 @@ import requests
 from core import config
 
 
-
-
 def download_csv() -> bytes:
     """Download the BZ2 compressed invTypes.csv file located at
     https://www.fuzzwork.co.uk/dump/latest/invTypes.csv.bz2 and
