@@ -18,9 +18,14 @@ Check market availability for doctrine fits
     CALLBACK_URL = <your callback url>
     SCOPE = <your scope>
     ```
+1. Copy token from `jwt.json` on local machine tp `jwt.json` on server.
+1. Add `reserves/` to path
+    ```
+    export PATH=$PATH:$(pwd)
+    ``` 
 1. Setup up the database by running the following scripts
     ```
-    python3 data/tables.py
-    python3 data/static.py
-    python3 data/orders.py
+    python3 data.tables
+    python3 data.static
+    python3 data.orders
     ```
