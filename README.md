@@ -22,10 +22,24 @@ Check market availability for doctrine fits
 1. Add `reserves/` to path
     ```
     export PATH=$PATH:$(pwd)
-    ``` 
+    ```
+1. Install dependencies
+    ```
+    python3 -m pip install -r requirements.txt
+    ```
 1. Setup up the database by running the following scripts
     ```
-    python3 data.tables
-    python3 data.static
-    python3 data.orders
+    python3 -m data.tables
+    python3 -m data.static
+    python3 -m data.orders
+    python3 -m data.doctrines
+    ```
+1. Set crontab to fetch orders
+    ```
+    crontab -e
+    * * * * * cd <path/to/reserves/> && python3 -m data.orders
+    ```
+1. Start the server
+    ```
+    python3 -m gunicorn --bind 0.0.0.0 "core.app:create_app()"
     ```
