@@ -212,7 +212,7 @@ def get_missing_items():
     c = conn.cursor()
 
     # Get all items that are below required threshold
-    c.execute("SELECT item.name, doctrine.required * doctrine_item.required - item.available as short FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id AND short > 0 GROUP BY doctrine_item.item_id;")
+    c.execute("SELECT item.name, SUM(doctrine.required * doctrine_item.required) - item.available as short FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id GROUP BY doctrine_item.item_id HAVING short > 0;")
     items = []
     for item in c.fetchall():
         name, missing = item
