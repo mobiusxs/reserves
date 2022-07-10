@@ -110,6 +110,7 @@ def list_doctrines():
                 'required': 50,
                 'available': 104,
                 'percent': 100
+                'price': 50,456,123.55
             },
         ]
 
@@ -118,10 +119,10 @@ def list_doctrines():
 
     conn = sqlite3.connect(config.DATABASE_PATH)
     c = conn.cursor()
-    c.execute("SELECT doctrine.id, doctrine.name, doctrine.required, MIN(item.available/doctrine_item.required) FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id GROUP BY doctrine.id;")
+    c.execute("SELECT doctrine.id, doctrine.name, doctrine.required, MIN(item.available/doctrine_item.required), SUM(doctrine_item.required*item.price) FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id GROUP BY doctrine.id;")
     doctrines = []
     for doctrine in c.fetchall():
-        id, name, required, available = doctrine
+        id, name, required, available, price = doctrine
         percent = min(int(available / required * 100), 100)
         d = {
             'id': id,
@@ -129,6 +130,7 @@ def list_doctrines():
             'required': required,
             'available': available,
             'percent': percent,
+            'price': price
         }
         doctrines.append(d)
 

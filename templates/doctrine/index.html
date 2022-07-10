@@ -10,6 +10,7 @@
                 <th class="text-center">Required</th>
                 <th class="text-center">Available</th>
                 <th class="text-center">Name</th>
+                <th class="text-center">Price</th>
                 <th></th>
             </tr>
         </thead>
@@ -20,6 +21,7 @@
                 <td class="text-end">{{ doctrine['required'] }}</td>
                 <td class="text-end">{{ doctrine['available'] }}</td>
                 <td><a href="{{ url_for('doctrine.doctrine', id=doctrine['id']) }}">{{ doctrine['name'] }}</a></td>
+                <td class="text-end">{{ "{:,.2f}".format(doctrine['price']) }}</td>
                 <td class="text-center"><a href="{{ url_for('doctrine.delete', id=doctrine['id']) }}">Delete</a></td>
             </tr>
         {% endfor %}
