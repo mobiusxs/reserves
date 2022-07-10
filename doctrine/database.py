@@ -65,15 +65,17 @@ def get_doctrine(doctrine_id: int) -> dict:
     doctrine_price = 0
     items = []
     for item in c.fetchall():
-        item_name, item_required, item_available, item_price = item
+        item_name, item_required, item_available, unit_price, total_price = item
         item = {
             'name': item_name,
             'required': item_required,
             'available': item_available,
-            'unit_price': item_price,
-            'total_price': item_price * item_required
+            'percent': min(int(item_available / (item_required * doctrine_required) * 100), 100),
+            'fits': int(item_available / item_required),
+            'unit_price': unit_price,
+            'total_price': total_price
         }
-        doctrine_price += item_required + item_price
+        doctrine_price += total_price
         items.append(item)
 
     doctrine = {
@@ -81,7 +83,7 @@ def get_doctrine(doctrine_id: int) -> dict:
         'name': doctrine_name,
         'required': doctrine_required,
         'available': doctrine_available,
-        'percent': doctrine_percent,
+        'percent': min(int(doctrine_available / doctrine_required * 100), 100),
         'price': doctrine_price,
         'items': items
     }
