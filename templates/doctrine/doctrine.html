@@ -27,9 +27,11 @@
     <table id="table" class="table table-dark table-striped table-hover">
         <thead>
             <tr>
-                <th>Item</th>
+                <th>Percent</th>
+                <th>Fits</th>
                 <th>Required</th>
                 <th>Available</th>
+                <th>Name</th>
                 <th>Unit Price</th>
                 <th>Total Price</th>
             </tr>
@@ -37,9 +39,11 @@
         <tbody>
         {% for item in doctrine['items'] %}
             <tr>
-                <td>{{ item['name'] }}</td>
+                <td class="text-end">{{ item['percent'] }}</td>
+                <td class="text-end">{{ item['fits'] }}</td>
                 <td class="text-end">{{ item['required'] }}</td>
                 <td class="text-end">{{ item['available'] }}</td>
+                <td>{{ item['name'] }}</td>
                 <td class="text-end">{{ "{:,.2f}".format(item['unit_price']) }}</td>
                 <td class="text-end">{{ "{:,.2f}".format(item['total_price']) }}</td>
             </tr>
