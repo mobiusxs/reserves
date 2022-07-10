@@ -134,7 +134,7 @@ def list_doctrines():
         }
         doctrines.append(d)
 
-    doctrines = sorted(doctrines, key=lambda d: d['percent'])
+    doctrines = sorted(doctrines, key=lambda p: p['percent'])
 
     conn.commit()
     c.close()
