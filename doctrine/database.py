@@ -57,18 +57,11 @@ def get_doctrine(doctrine_id: int) -> dict:
     conn = sqlite3.connect(config.DATABASE_PATH)
     c = conn.cursor()
 
-    # Get the doctrine name and required quantity
-    c.execute("SELECT name, required FROM doctrine WHERE id=?;", (doctrine_id,))
-    doctrine_name, doctrine_required = c.fetchone()
-
-    # Get doctrine availability
-    c.execute("SELECT MIN(item.available / doctrine_item.required) FROM doctrine_item, item WHERE doctrine_item.item_id=item.id AND doctrine_id=?;", (doctrine_id,))
-    doctrine_available = c.fetchone()[0]
-
-    doctrine_percent = min(int(doctrine_available / doctrine_required * 100), 100)
+    c.execute("SELECT doctrine.id, doctrine.name, doctrine.required, MIN(item.available/doctrine_item.required), SUM(doctrine_item.required*item.price) FROM doctrine, doctrine_item, item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id AND doctrine.id=? GROUP BY doctrine.id;", (doctrine_id,))
+    doctrine_id, doctrine_name, doctrine_required, doctrine_available, doctrine_price = c.fetchone()
 
     # Get all items for this doctrine
-    c.execute("SELECT item.name, doctrine_item.required, item.available, item.price FROM doctrine, item, doctrine_item WHERE doctrine.id=? AND doctrine_item.doctrine_id=? AND doctrine_item.item_id=item.id;", (doctrine_id, doctrine_id))
+    c.execute("SELECT item.name, doctrine_item.required, item.available, item.price, doctrine_item.required * item.price AS total_price FROM doctrine, item, doctrine_item WHERE doctrine.id=doctrine_item.doctrine_id AND doctrine_item.item_id=item.id AND doctrine.id=?;", (doctrine_id,))
     doctrine_price = 0
     items = []
     for item in c.fetchall():
